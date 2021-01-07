@@ -37,7 +37,7 @@ class tcpwrappers (
   String          $package_name         = 'tcp_wrappers',
   ) {
   case $::operatingsystem {
-    'RedHat', 'CentOS': {
+    'RedHat', 'CentOS', 'OpenSuSE': {
       contain tcpwrappers::install
       contain tcpwrappers::config
 

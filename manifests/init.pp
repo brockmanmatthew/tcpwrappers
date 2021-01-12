@@ -34,7 +34,7 @@ class tcpwrappers (
   String          $file_allow           = 'hosts.allow',
   String          $file_deny            = 'hosts.deny',
   String          $package_ensure       = 'present',
-  String          $package_name         = 'tcp_wrappers',
+  String          $package_name,
   ) {
   case $::operatingsystem {
     'RedHat', 'CentOS', 'OpenSuSE': {

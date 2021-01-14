@@ -1,0 +1,4 @@
+---
+
+tcpwrappers::allow_header_source: 'tcpwrappers/allow_header_OpenSuSE'
+tcpwrappers::deny_header_source: 'tcpwrappers/deny_header_OpenSuSE'
